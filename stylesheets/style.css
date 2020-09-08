@@ -1,0 +1,42 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+/* Header name */
+
+header .header-name {
+	display:flex;
+	justify-content:space-between;
+	margin-top:10px;
+}
+
+header .header-name > h1 {
+	font-family: 'Righteous', cursive;
+	font-size:35px;
+	color:#555;
+	letter-spacing:1.0px;
+	font-weight:100;
+	margin-left:10px;
+}
+
+header .header-name > h1::after {
+	content:'.com';
+	color:#00B53E;
+}
+
+header .header-name > button {
+	all:unset;
+	margin-right:10px;
+	background:#00B53E;
+	color:#F8F8F8;
+	padding:0 15px;
+	border-radius:7px;
+	text-transform:uppercase;
+	font-weight:650;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing:1px;
+
+}
+/* End */
