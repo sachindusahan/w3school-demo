@@ -10,6 +10,7 @@ header .header-name {
 	display:flex;
 	justify-content:space-between;
 	margin-top:10px;
+	align-items:center;
 }
 
 header .header-name > h1 {
@@ -31,12 +32,115 @@ header .header-name > button {
 	margin-right:10px;
 	background:#00B53E;
 	color:#F8F8F8;
-	padding:0 15px;
+	padding:9px 16px;
 	border-radius:7px;
 	text-transform:uppercase;
 	font-weight:650;
 	font-family: 'Open Sans', sans-serif;
 	letter-spacing:1px;
+}
 
+@media (max-width:480px) {
+	header .header-name > h1 {
+		font-size:28px;
+	}
+	header .header-name > button {
+		padding:5px 14px;
+		font-size:13px;
+	}
+}
+
+@media (max-width:380px) {
+	header .header-name > h1 {
+		font-size:25px;
+	}
+	header .header-name > button {
+		padding:5px 12px;
+	}
 }
 /* End */
+
+/* Navigation */
+nav {
+	background:#00B53E;
+	color:#F9F9F9;
+	margin:10px 0 0 0;
+	display:flex;
+	position:relative;
+	min-height:3.5em;
+	display:flex;
+}
+
+nav .navigation-left {
+	flex:7;
+	display:flex;
+}
+
+nav .navigation-left ul {
+	flex:1;
+	display:flex;
+	align-items:center;
+}
+
+.navigation-left ul .fa-caret-down {
+	font-size:20px;
+}
+
+nav .navigation-left li {
+	text-transform:uppercase;
+	list-style:none;
+	font-family:'Raleway',sans-serif;
+	margin:0 30px;
+	letter-spacing:2.2px;
+}
+
+nav .navigation-right {
+	flex:3.5;
+	display:flex;
+	align-items:center;
+	justify-content:flex-end;
+}
+
+nav .navigation-right > i {
+	margin:0 20px;
+}
+
+nav .media-bar {
+	display:none;
+}
+
+@media (max-width:750px) {
+	nav .navigation-left {
+		display:none;
+	}
+	nav .media-bar {
+		display:block;
+		display:flex;
+		align-items:center;
+		margin:0 0 0 14px;
+	}
+	nav .media-bar .fa-bars {
+		font-size:25px;
+	}
+	.navigation-right .fa-yin-yang {
+		display:none;
+	}
+
+}
+
+/* Nav End */
+
+/* Tutorial in nav */
+
+nav .tutorials {
+	background:#F4F4F4;
+	height:100vh;
+	color:#000;
+	top:70px;
+	position:absolute;
+	left:0;
+}
+
+
+
+
