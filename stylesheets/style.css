@@ -24,7 +24,7 @@ header .header-name > h1 {
 
 header .header-name > h1::after {
 	content:'.com';
-	color:#00B53E;
+	color:#00B53E; /* Green */
 }
 
 header .header-name > button {
@@ -134,7 +134,7 @@ nav .media-bar {
 
 nav .tutorials {
 	background:#F4F4F4;
-	min-height:100vh;
+	min-height:700px;
 	width:100vw;
 	color:#000;
 	top:59px;
@@ -145,7 +145,6 @@ nav .tutorials {
 	animation-fill-mode:forwards;
 	display:flex;
 	flex-wrap:wrap;
-	padding-bottom:120px;
 	z-index:5;
 	display:none;
 }
@@ -159,7 +158,6 @@ nav .tutorials {
 	}
 }
 
-/* Tutorials modify */
 .tutorials .close {
 	position:absolute;
 	right:15px;
@@ -279,6 +277,12 @@ nav .tutorials {
 .navigation-left .tutorial-scrol:hover .tutorials {
 	display:flex;
 }
+
+.server-side-w3 {
+	padding:0 0 100px 0;
+}
+
+/* Tutorials End */
 
 
 
