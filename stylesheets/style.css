@@ -86,10 +86,10 @@ nav .navigation-left ul {
 	font-size:20px;
 }
 
-nav .navigation-left li {
+nav .navigation-left ul li {
 	text-transform:uppercase;
 	list-style:none;
-	font-family:'Raleway',sans-serif;
+	font-family: 'Roboto', sans-serif;
 	margin:0 30px;
 	letter-spacing:2.2px;
 }
@@ -137,12 +137,17 @@ nav .tutorials {
 	min-height:100vh;
 	width:100vw;
 	color:#000;
-	top:60px;
+	top:59px;
 	position:absolute;
 	left:0;
 	animation-name:top-to-bottom;
-	animation-duration:3s;
+	animation-duration:0.5s;
 	animation-fill-mode:forwards;
+	display:flex;
+	flex-wrap:wrap;
+	padding-bottom:120px;
+	z-index:5;
+	display:none;
 }
 
 @keyframes top-to-bottom {
@@ -153,5 +158,118 @@ nav .tutorials {
 		opacity:1;
 	}
 }
+
+/* Tutorials modify */
+
+
+.tutorials #html-css {
+	width:40%;
+	margin-left:30px;
+	margin-top:40px;
+}
+
+.tutorials #JavaScript {
+	width:40%;
+	margin-left:30px;
+	margin-top:40px;
+}
+
+.tutorials #xml-tutorial {
+	width:40%;
+	margin-left:30px;
+	margin-top:40px;
+}
+
+.tutorials #programming-tutorial {
+	width:40%;
+	margin-left:30px;
+	margin-top:40px;
+}
+
+.tutorials #server-side-tutorial {
+	width:40%;
+	margin-left:30px;
+	margin-top:40px;
+}
+
+/* Letter */
+#html-css > h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight:100;
+}
+
+#html-css .html-css-w3 h3 {
+	font-family:Candara;
+	font-size:17px;
+	letter-spacing:0.5px;
+	font-weight:400;
+	margin:10px 0;
+	text-transform:capitalize;
+}
+
+#JavaScript > h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight:100;
+	text-transform:capitalize;
+}
+
+#JavaScript .javascript-w3 h3 {
+	font-family:Candara;
+	font-size:17px;
+	letter-spacing:0.5px;
+	font-weight:400;
+	margin:10px 0;
+	text-transform:capitalize;
+}
+
+#xml-tutorial > h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight:100;
+	text-transform:capitalize;
+}
+
+#xml-tutorial .xml-w3 h3 {
+	font-family:Candara;
+	font-size:17px;
+	letter-spacing:0.5px;
+	font-weight:400;
+	margin:10px 0;
+	text-transform:capitalize;
+}
+
+#programming-tutorial > h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight:100;
+	text-transform:capitalize;
+}
+
+#programming-tutorial .programming-w3 h3 {
+	font-family:Candara;
+	font-size:17px;
+	letter-spacing:0.5px;
+	font-weight:400;
+	margin:10px 0;
+	text-transform:capitalize;
+}
+
+#server-side-tutorial > h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight:100;
+	text-transform:capitalize;
+}
+
+#server-side-tutorial .server-side-w3 h3 {
+	font-family:Candara;
+	font-size:17px;
+	letter-spacing:0.5px;
+	font-weight:400;
+	margin:10px 0;
+	text-transform:capitalize;
+}
+
+.navigation-left .tutorial-scrol:hover .tutorials {
+	display:flex;
+}
+
 
 
