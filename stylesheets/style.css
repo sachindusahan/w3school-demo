@@ -160,7 +160,16 @@ nav .tutorials {
 }
 
 /* Tutorials modify */
+.tutorials .close {
+	position:absolute;
+	right:15px;
+	top:15px;
+	color:#000;
+}
 
+.fa-times-circle {
+	font-size:25px;
+}
 
 .tutorials #html-css {
 	width:40%;
