@@ -134,13 +134,24 @@ nav .media-bar {
 
 nav .tutorials {
 	background:#F4F4F4;
-	height:100vh;
+	min-height:100vh;
+	width:100vw;
 	color:#000;
-	top:70px;
+	top:60px;
 	position:absolute;
 	left:0;
+	animation-name:top-to-bottom;
+	animation-duration:3s;
+	animation-fill-mode:forwards;
 }
 
-
+@keyframes top-to-bottom {
+	from {
+		opacity:0;
+	}
+	to {
+		opacity:1;
+	}
+}
 
 
