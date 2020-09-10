@@ -5,7 +5,19 @@
 
 .side-bar {
 	width:250px;
-	height:100vh;
+	min-height:100vh;
 	margin-bottom:-2px;
-	box-shadow:0.1px 0.1px 10px;
+	box-shadow:0.1px 0.1px 10px #787878;
+}
+
+.side > h3 {
+	font-weight:400;
+	padding:20px 0 20px 15px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.side > h4 {
+	font-weight:400;
+	padding:4px 0 4px 15px;
+	font-family: 'Montserrat', sans-serif;
 }

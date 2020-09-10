@@ -396,7 +396,7 @@ nav .tutorials {
 	top:55px;
 	display:flex;
 	animation-name:examples;
-	animation-duration:00.1s;
+	animation-duration:0.1s;
 	flex-wrap:wrap;
 	text-transform:capitalize;
 	display:none;
