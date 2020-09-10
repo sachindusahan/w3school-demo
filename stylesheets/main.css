@@ -1,0 +1,11 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+.side-bar {
+	width:250px;
+	height:100vh;
+	margin-bottom:-2px;
+	box-shadow:0.1px 0.1px 10px;
+}

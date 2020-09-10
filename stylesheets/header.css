@@ -80,6 +80,7 @@ nav .navigation-left ul {
 	flex:1;
 	display:flex;
 	align-items:center;
+
 }
 
 .navigation-left ul .fa-caret-down {
@@ -141,7 +142,7 @@ nav .tutorials {
 	position:absolute;
 	left:0;
 	animation-name:top-to-bottom;
-	animation-duration:0.5s;
+	animation-duration:0.1s;
 	animation-fill-mode:forwards;
 	display:flex;
 	flex-wrap:wrap;
@@ -151,10 +152,10 @@ nav .tutorials {
 
 @keyframes top-to-bottom {
 	from {
-		opacity:0;
+		display:none;
 	}
 	to {
-		opacity:1;
+		display:flex;
 	}
 }
 
@@ -297,16 +298,16 @@ nav .tutorials {
 	display:flex;
 	flex-wrap:wrap;
 	animation-name:reference-anim;
-	animation-duration:0.5s;
+	animation-duration:0.1s;
 	display:none;
 }
 
 @keyframes reference-anim {
 	from {
-		opacity:0;
+		display:none;
 	}
 	to {
-		opacity:1;
+		display:flex;
 	}
 }
 
@@ -395,7 +396,7 @@ nav .tutorials {
 	top:55px;
 	display:flex;
 	animation-name:examples;
-	animation-duration:0.8s;
+	animation-duration:00.1s;
 	flex-wrap:wrap;
 	text-transform:capitalize;
 	display:none;
@@ -403,10 +404,10 @@ nav .tutorials {
 
 @keyframes examples {
 	from {
-		opacity:0;
+		display:none;
 	}
 	to {
-		opacity:1;
+		display:flex;
 	}
 }
 
@@ -462,4 +463,3 @@ nav .tutorials {
 #examples-hr:hover .examples {
 	display:flex;
 }
-/*     */
