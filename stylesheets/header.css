@@ -300,6 +300,7 @@ nav .tutorials {
 	animation-name:reference-anim;
 	animation-duration:0.1s;
 	display:none;
+	z-index:5;
 }
 
 @keyframes reference-anim {
@@ -400,6 +401,7 @@ nav .tutorials {
 	flex-wrap:wrap;
 	text-transform:capitalize;
 	display:none;
+	z-index:5;
 }
 
 @keyframes examples {
