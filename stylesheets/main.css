@@ -73,9 +73,9 @@ main {
 
 /* Top Box */
 .top-box-1 {
-	background:#F5F5F5;
+	background:#F9F9F9;
 	width:90%;
-	height:400px;
+	height:370px;
 	margin-top:50px;
 	box-shadow:1px 1px 7px #787878;
 	
@@ -86,4 +86,30 @@ main {
 	font-weight:400;
 	font-size:25px;
 	font-family: 'Robot', sans-serif;
+}
+
+.compile {
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+
+.top-box-1 .inside-compile {
+	width:90%;
+	height:210px;
+	border-left:3px solid #00B53E;
+	background:#FFF;
+	padding:10px 10px;
+}
+
+/* Color */
+.blue {
+	color:blue;
+}
+.brown {
+	color:#DF6533
+}
+.red {
+	color:red;
 }
