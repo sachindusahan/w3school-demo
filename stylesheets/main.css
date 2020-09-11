@@ -75,7 +75,7 @@ main {
 .top-box-1 {
 	background:#F9F9F9;
 	width:90%;
-	height:370px;
+	height:390px;
 	margin-top:50px;
 	box-shadow:1px 1px 7px #787878;
 	
@@ -97,11 +97,16 @@ main {
 
 .top-box-1 .inside-compile {
 	width:90%;
-	height:210px;
+	height:230px;
 	border-left:3px solid #00B53E;
 	background:#FFF;
 	padding:10px 10px;
 }
+
+.inside-compile div {
+	margin:2px 0;
+}
+
 
 /* Color */
 .blue {
