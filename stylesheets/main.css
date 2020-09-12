@@ -52,7 +52,7 @@ main {
 	font-weight:500;
 	color:#555;
 	letter-spacing:0.6px;
-	font-size:50px;
+	font-size:65px;
 	font-family: 'Open Sans', sans-serif;
 	margin-top:25px;
 }
@@ -60,6 +60,7 @@ main {
 .right__1 > p {
 	margin:20px 0 25px 0;
 	font-family: 'Open Sans', sans-serif;
+	font-size:23px;
 }
 
 .right__1 .btn button {
@@ -73,7 +74,7 @@ main {
 
 /* Top Box */
 .top-box-1 {
-	background:#F9F9F9;
+	background:#F3F3F3;
 	width:90%;
 	height:390px;
 	margin-top:50px;
@@ -107,6 +108,16 @@ main {
 	margin:2px 0;
 }
 
+.try-btn {
+	background:#00B53E;
+	padding:10px 14px;
+	border:none;
+	outline:none;
+	margin:20px 0 20px 35px;
+	color:#FFF;
+	font-family: 'Roboto', sans-serif;
+}
+
 
 /* Color */
 .blue {
@@ -117,4 +128,48 @@ main {
 }
 .red {
 	color:red;
+}
+
+/* Css */
+.right__2 {
+	width:100%;
+	background:#F3F3F3;
+	margin:40px 0 0 0;
+	height:800px;
+	z-index:-1;
+}
+
+.css-compile {
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+.css-compile > h1 {
+	font-size:65px;
+	color:#000;
+	text-align:center;
+	margin-top:30px;
+	font-weight:550;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.css-compile > p {
+	text-align:center;
+	margin:20px 0 25px 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size:23px;
+}
+
+.css-compile button {
+	background:#555;
+	color:#FFF;
+	border:none;
+	outline:none;
+	padding:10px 10px;
+	letter-spacing:0.8px;
+}
+
+.css-compile .css-left {
+	text-align:left;
 }
