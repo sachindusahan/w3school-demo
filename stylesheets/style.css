@@ -286,11 +286,17 @@ nav .tutorials {
 
 /* References */
 #reference-li .references {
-	background:#F4F4F4;
+	background:;
 	width:100vw;
-	height:100vh;
+	min-height:400px;
 	position:absolute;
 	top:55px;
+	color:#000;
 	left:0;
 }
+
+#reference-li .references h3 {
+	color:#000;
+}
+
 /* reference content */
