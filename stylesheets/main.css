@@ -147,7 +147,7 @@ main {
 
 .css-compile > h1 {
 	font-size:65px;
-	color:#000;
+	color:#555;
 	text-align:center;
 	margin-top:30px;
 	font-weight:550;
@@ -172,4 +172,22 @@ main {
 
 .css-compile .css-left {
 	text-align:left;
+}
+
+.right__2 .top-box-2 > h1 {
+	color:#000;
+	margin:50px 0 0 22px;
+	font-size:25px;
+	font-weight:400;
+	font-family: 'Robot', sans-serif;
+}
+
+
+.right__2 .inside-compile {
+	width:94%;
+	height:350px;
+	border-left:3px solid #00B53E;
+	background:#FFF;
+	padding:10px 10px;
+	margin:15px 0 0 0;
 }
