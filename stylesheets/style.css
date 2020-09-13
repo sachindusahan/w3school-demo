@@ -1,0 +1,302 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+/* Header name */
+
+header .header-name {
+	display:flex;
+	justify-content:space-between;
+	margin-top:10px;
+	align-items:center;
+}
+
+header .header-name > h1 {
+	font-family: 'Righteous', cursive;
+	font-size:35px;
+	color:#555;
+	letter-spacing:1.0px;
+	font-weight:100;
+	margin-left:10px;
+}
+
+header .header-name > h1::after {
+	content:'.com';
+	color:#00B53E; /* Green */
+}
+
+header .header-name > button {
+	all:unset;
+	margin-right:10px;
+	background:#00B53E;
+	color:#F8F8F8;
+	padding:9px 16px;
+	border-radius:7px;
+	text-transform:uppercase;
+	font-weight:650;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing:1px;
+}
+
+@media (max-width:480px) {
+	header .header-name > h1 {
+		font-size:28px;
+	}
+	header .header-name > button {
+		padding:5px 14px;
+		font-size:13px;
+	}
+}
+
+@media (max-width:380px) {
+	header .header-name > h1 {
+		font-size:25px;
+	}
+	header .header-name > button {
+		padding:5px 12px;
+	}
+}
+/* End */
+
+/* Navigation */
+nav {
+	background:#00B53E;
+	color:#F9F9F9;
+	margin:10px 0 0 0;
+	display:flex;
+	position:relative;
+	min-height:3.5em;
+	display:flex;
+}
+
+nav .navigation-left {
+	flex:7;
+	display:flex;
+}
+
+nav .navigation-left ul {
+	flex:1;
+	display:flex;
+	align-items:center;
+}
+
+.navigation-left ul .fa-caret-down {
+	font-size:20px;
+}
+
+nav .navigation-left ul li {
+	text-transform:uppercase;
+	list-style:none;
+	font-family: 'Roboto', sans-serif;
+	margin:0 30px;
+	letter-spacing:2.2px;
+}
+
+nav .navigation-right {
+	flex:3.5;
+	display:flex;
+	align-items:center;
+	justify-content:flex-end;
+}
+
+nav .navigation-right > i {
+	margin:0 20px;
+}
+
+nav .media-bar {
+	display:none;
+}
+
+@media (max-width:750px) {
+	nav .navigation-left {
+		display:none;
+	}
+	nav .media-bar {
+		display:block;
+		display:flex;
+		align-items:center;
+		margin:0 0 0 14px;
+	}
+	nav .media-bar .fa-bars {
+		font-size:25px;
+	}
+	.navigation-right .fa-yin-yang {
+		display:none;
+	}
+
+}
+
+/* Nav End */
+
+/* Tutorial in nav */
+
+nav .tutorials {
+	background:#F4F4F4;
+	min-height:400px;
+	width:100vw;
+	color:#000;
+	top:55px;
+	position:absolute;
+	left:0;
+	animation-name:top-to-bottom;
+	animation-duration:0.5s;
+	animation-fill-mode:forwards;
+	display:flex;
+	flex-wrap:wrap;
+	z-index:5;
+	display:none;
+}
+
+@keyframes top-to-bottom {
+	from {
+		opacity:0;
+	}
+	to {
+		opacity:1;
+	}
+}
+
+.tutorials .close {
+	position:absolute;
+	right:15px;
+	top:15px;
+	color:#000;
+}
+
+.fa-times-circle {
+	font-size:25px;
+}
+
+.tutorials #html-css {
+	width:40%;
+	margin-left:30px;
+	margin-top:40px;
+}
+
+.tutorials #JavaScript {
+	width:40%;
+	margin-left:30px;
+	margin-top:40px;
+}
+
+.tutorials #xml-tutorial {
+	width:40%;
+	margin-left:30px;
+	margin-top:40px;
+}
+
+.tutorials #programming-tutorial {
+	width:40%;
+	margin-left:30px;
+	margin-top:40px;
+}
+
+.tutorials #server-side-tutorial {
+	width:40%;
+	margin-left:30px;
+	margin-top:40px;
+}
+
+/* Letter */
+#html-css > h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight:100;
+}
+
+#html-css .html-css-w3 h3 {
+	font-family:Candara;
+	font-size:17px;
+	letter-spacing:0.5px;
+	font-weight:400;
+	margin:10px 0;
+	text-transform:capitalize;
+}
+
+#JavaScript > h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight:100;
+	text-transform:capitalize;
+}
+
+#JavaScript .javascript-w3 h3 {
+	font-family:Candara;
+	font-size:17px;
+	letter-spacing:0.5px;
+	font-weight:400;
+	margin:10px 0;
+	text-transform:capitalize;
+}
+
+#xml-tutorial > h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight:100;
+	text-transform:capitalize;
+}
+
+#xml-tutorial .xml-w3 h3 {
+	font-family:Candara;
+	font-size:17px;
+	letter-spacing:0.5px;
+	font-weight:400;
+	margin:10px 0;
+	text-transform:capitalize;
+}
+
+#programming-tutorial > h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight:100;
+	text-transform:capitalize;
+}
+
+#programming-tutorial .programming-w3 h3 {
+	font-family:Candara;
+	font-size:17px;
+	letter-spacing:0.5px;
+	font-weight:400;
+	margin:10px 0;
+	text-transform:capitalize;
+}
+
+#server-side-tutorial > h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight:100;
+	text-transform:capitalize;
+}
+
+#server-side-tutorial .server-side-w3 h3 {
+	font-family:Candara;
+	font-size:17px;
+	letter-spacing:0.5px;
+	font-weight:400;
+	margin:10px 0;
+	text-transform:capitalize;
+}
+
+.navigation-left .tutorial-scrol:hover .tutorials {
+	display:flex;
+}
+
+.server-side-w3 {
+	padding:0 0 50px 0;
+}
+
+/* Tutorials End */
+
+/* References */
+#reference-li .references {
+	background:;
+	width:100vw;
+	min-height:400px;
+	position:absolute;
+	top:55px;
+	color:#000;
+	left:0;
+}
+
+#reference-li .references h3 {
+	color:#000;
+}
+
+/* reference content */
