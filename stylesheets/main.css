@@ -100,7 +100,7 @@ main {
 .top-box-1 .inside-compile {
 	width:90%;
 	height:250px;
-	border-left:3px solid #00B53E;
+	border-left:4px solid #00B53E;
 	background:#FFF;
 	padding:10px 10px;
 }
@@ -187,7 +187,7 @@ main {
 .right__2 .inside-compile {
 	width:94%;
 	height:310px;
-	border-left:3px solid #00B53E;
+	border-left:4px solid #00B53E;
 	background:#FFF;
 	padding:10px 10px;
 	margin:15px 0 0 0;
@@ -203,6 +203,130 @@ main {
 }
 
 code {
-	font-family: 'Montserrat', sans-serif;
+	letter-spacing:0.7px;
+	font-family: 'Open Sans', sans-serif;
 	font-size:13px;
+}
+
+/* End CSS example */
+.javascript-example {
+	display:flex;
+	flex-direction:column;
+	width:100%;
+	align-items:center
+}
+
+.javascript-example .js-topic {
+	font-size:65px;
+	font-weight:500;
+	color:#555;
+	letter-spacing:0.6px;
+	font-family: 'Open Sans', sans-serif;
+	margin-top:30px
+}
+
+.javascript-example #topic {
+	margin:20px 0 25px 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size:23px;
+}
+
+
+.javascript-example .btn button {
+	background:#555;
+	color:#FFF;
+	border:none;
+	outline:none;
+	padding:10px 10px;
+	letter-spacing:0.8px;
+}
+
+.javascript-example .js-compile {
+	width:95%;
+	background-color:#F3F3F3;
+	min-height:300px;
+	margin-top:50px;
+	box-shadow:1px 1px 7px #787878;
+	
+}
+
+.js-compile > h1 {
+	margin:30px 0 20px 15px;
+	font-weight:400;
+	font-size:25px;
+	font-family: 'Robot', sans-serif;
+}
+
+.js-compile .inside-compile {
+	width:94%;
+	height:230px;
+	border-left:4px solid #00B53E;
+	background:#FFF;
+	padding:10px 10px;
+	margin:15px 0 0 15px;
+}
+
+#js-try-btn {
+	margin-left:10px
+}
+
+pre {
+	line-height:23px;
+}
+
+.js-compile code {
+	font-size:14px;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing:0.8px;
+}
+
+/* sql */
+.sql-ex {
+	width:100%;
+	background:#F3F3F3;
+	margin-top:50px;
+	z-index:-1;
+}
+
+.sql-ex > h1 {
+	font-size:65px;
+	color:#555;
+	text-align:center;
+	margin-top:30px;
+	font-weight:550;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.sql-ex > p {
+	text-align:center;
+	margin:20px 0 25px 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size:23px;
+}
+
+.sql-ex .btn button {
+	background:#555;
+	color:#FFF;
+	border:none;
+	outline:none;
+	padding:10px 10px;
+	letter-spacing:0.8px;
+}
+
+#sql-example {
+	color:#000;
+	margin:50px 0 0 22px;
+	font-size:25px;
+	font-weight:400;
+	font-family: 'Robot', sans-serif;
+}
+
+.inside-sql{
+	width:94%;
+	height:100px;
+	border-left:4px solid #00B53E;
+	background:#FFF;
+	padding:10px 10px;
+	margin:15px 0 0 25px;
+	box-shadow:1px 1px 5px #787878;
 }
