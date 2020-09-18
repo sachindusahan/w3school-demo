@@ -3,6 +3,7 @@
 	margin:0;
 	padding:0;
 	box-sizing:border-box;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .side-bar {
@@ -345,10 +346,11 @@ pre {
 	background:#FFF;
 	width:95%;
 	height:200px;
-	margin:50px 0;
+	margin:20px 0;
 	display:flex;
 	flex-direction:column;
 	align-items:center;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .section .py-section h1 {
@@ -367,4 +369,53 @@ pre {
 	background:#555;
 	border:none;
 	margin-top:14px;
+}
+
+.class_div {
+	text-align:center;
+}
+
+.class_div h1 {
+	font-size:22px;
+	font-weight:400;
+	margin-top:60px;
+}
+
+.class_div p {
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+.class_div button {
+	padding:8px 15px;
+	background:#555;
+	border:none;
+	outline:none;
+	color:#FFF;
+}
+
+.class_div h2 {
+	font-size:22px;
+	font-weight:400;
+	margin-top:60px;
+	margin-bottom:25px;
+}
+
+.color-picker {
+	margin-bottom:50px;
+}
+
+
+.class_div h3 {
+	font-size:22px;
+	font-weight:400;
+}
+
+.class_div .btn button {
+	padding:8px 15px;
+	background:#555;
+	border:none;
+	outline:none;
+	color:#FFF;
+	margin:0 5px;
 }
